@@ -8,8 +8,8 @@ import {
   Box,
   Paper,
   Link,
-  Checkbox,
-  FormControlLabel,
+  // Checkbox,
+  // FormControlLabel,
   TextField,
 } from "@mui/material";
 import GoogleButton from "react-google-button";
@@ -100,10 +100,10 @@ const LogInForm = (props: any) => {
 
           <Grid container alignItems="center" sx={{ mt: 2, mb: 3 }}>
             <Grid item xs>
-              <FormControlLabel
+              {/* <FormControlLabel
                 control={<Checkbox value="remember" color="primary" />}
                 label="Remember me"
-              />
+              /> */}
             </Grid>
             <Grid item>
               <Button type="submit" variant="contained" sx={{ width: "130px" }}>

@@ -29,10 +29,10 @@ export default function AuthPage() {
             backgroundPosition: "center",
           }}
         />
-        {showSignUpForm ? (
-          <SignUpForm />
-        ) : (
+        {showSignUpForm || !showSignUpForm ? (
           <LogInForm setShowSignUpForm={setShowSignUpForm} />
+        ) : (
+          <SignUpForm />
         )}
       </Grid>
     </ThemeProvider>
