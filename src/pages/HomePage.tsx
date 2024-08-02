@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Card,
   CardContent,
@@ -8,9 +7,9 @@ import {
   Box,
 } from "@mui/material";
 
-type Props = {};
+// type Props = {};
 
-const HomePage = (props: Props) => {
+const HomePage = () => {
   return (
     <Box sx={{ backgroundColor: "#f0f0f0", minHeight: "100vh" }}>
       <Grid container spacing={3}>
